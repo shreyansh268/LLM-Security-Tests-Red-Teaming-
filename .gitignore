@@ -1,0 +1,44 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Temporary files and folders
+*.tmp
+*.temp
+*.bak
+*.swp
+tmp/
+temp/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.sln
+
+# Garak specific logs (if any are generated in the current directory)
+garak.log
