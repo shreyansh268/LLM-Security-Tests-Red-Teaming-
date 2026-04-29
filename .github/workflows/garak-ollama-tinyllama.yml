@@ -45,7 +45,12 @@ jobs:
 
       - name: Run garak security probes
         run: |
-          garak --model_type ollama --model_name tinyllama --probes test.Test --report ./garak-reports
+          garak --model_type ollama --model_name tinyllama --probes test.Test
+
+      - name: Check generated reports
+        run: |
+          ls -la ./garak-reports/ || echo "garak-reports not found, checking current directory:"
+          find . -name "*.json" -o -name "*.html" | head -20
 
       - name: Upload security reports
         if: always()
