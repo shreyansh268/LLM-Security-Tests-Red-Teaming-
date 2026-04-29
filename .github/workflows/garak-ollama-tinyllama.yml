@@ -45,7 +45,7 @@ jobs:
 
       - name: Run garak security probes
         run: |
-          garak --model_type ollama --model_name tinyllama --probes test.Test --report-dir ./garak-reports
+          garak --model_type ollama --model_name tinyllama --probes test.Test --report ./garak-reports
 
       - name: Upload security reports
         if: always()
