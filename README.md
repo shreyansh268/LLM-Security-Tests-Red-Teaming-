@@ -1,5 +1,9 @@
 # LLM Security Tests
 
+<img width="431" height="376" alt="image" src="https://github.com/user-attachments/assets/8b8dea36-31b2-4527-8a7a-00ffb711cb5d" />
+<img width="539" height="231" alt="image" src="https://github.com/user-attachments/assets/b843a826-1a19-4c80-a6e4-12f9acf5354f" />
+
+
 Disclaimer: The scripts in this repository are for educational and security testing purposes only. Unauthorized testing of LLMs may be illegal or unethical. Use these scripts responsibly and ensure you have proper authorization to test the models.
 
 This repository contains a suite of automated security test scenarios for Large Language Models (LLMs) using [garak](https://github.com/leondz/garak), an LLM vulnerability scanner. 
